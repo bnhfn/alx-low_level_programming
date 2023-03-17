@@ -2,7 +2,11 @@
 #include <time.h>
 #include <stdio.h>
 /* more headers goes there */
-
+/**
+ * main - A program that prints a line with puts function
+ * Description: Prints out a string to stdout.
+ * Return: Always 0 (Success)
+*/
 /* betty style doc for function main goes there */
 int main(void)
 {
