@@ -1,7 +1,7 @@
 #include<stdio.h>
 /**
  * main - A program that prints all single digit number.
- * Description: Use printf.
+ * Description: Use putchar twice.
  * Return: Always 0 (Success)
 */
 int main(void)
