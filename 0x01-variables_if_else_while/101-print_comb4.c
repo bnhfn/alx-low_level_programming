@@ -17,7 +17,7 @@ if (l > m && m > n)
 putchar(n);
 putchar(m);
 putchar(l);
-if (n != 56 || m != 57 || l != 58)
+if (n != 56 || m != 57 )
 {
 putchar(',');
 putchar(' ');
