@@ -10,14 +10,14 @@ for (n = 48; n <= 56; n++)
 {
 for (m = 49; m <= 57; m++)
 {
-for (l = 50; l <= 58; l++)
+for (l = 49; l <= 57; l++)
 {
 if (l > m && m > n)
 {
 putchar(n);
 putchar(m);
 putchar(l);
-if (n != 56 || m != 57 || l != 58)
+if (n != 56 || m != 57 || l != 57)
 {
 putchar(',');
 putchar(' ');
