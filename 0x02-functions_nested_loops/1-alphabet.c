@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <holberton.h>
 /**
  * main- print_alphabet
  * parameter: print_alphabet
@@ -9,7 +8,7 @@
 print_alphabet();
 void print_alphabet(void);
 /**function prototype for print_alphabet*/
-int main(void)
+int print_alphabet(void)
 {
 	int print_alphabet;
 
