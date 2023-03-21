@@ -1,10 +1,11 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
  * print_sign - Function
  * Description: prints the sign of a number
  * Return: 1 if n>0 || 0 n=0 || -1 if n>0
- * @c: store an integer value
+ * @n: store an integer value
 */
 
 int print_sign(int n)
