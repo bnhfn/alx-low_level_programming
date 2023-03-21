@@ -10,7 +10,7 @@
 
 int print_sign(int n)
 {
-if (n >= 1)
+if (n > 0)
 {
 printf("+");
 return (1);
@@ -23,6 +23,6 @@ return (0);
 else
 {
 printf("-1");
-return (0);
+return (-1);
 }
 }
