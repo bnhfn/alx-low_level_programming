@@ -6,6 +6,7 @@
  *Return: Always 0 (success)
  */
 void print_alphabet(void);
+/**function prototype for print_alphabet*/
 int main(void)
 {
 	int print_alphabet;
