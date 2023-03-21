@@ -6,9 +6,7 @@
  *followed by a new line
  *Return: Always 0 (success)
  */
-void print_alphabet(void);
-/**function prototype for print_alphabet*/
-int main(void)
+void print_alphabet(void)
 {
 	int x;
 
