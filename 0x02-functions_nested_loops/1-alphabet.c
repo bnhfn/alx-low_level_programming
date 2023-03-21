@@ -1,18 +1,15 @@
-#include <stdio.h>
 #include "main.h"
 /**
- * main - Prints the alphabet.
- * description:function prototype for print_alphabet function*
- * Return: Always 0 (Success)
- */
-void print_alphabet(void);
-int main(void)
+ * print_alphabet - Function
+ * Description: print alphabet from a - z
+ * Return: 0
+*/
+void print_alphabet(void)
 {
-int x;
-for (x = 'a'; x <= 'z'; x++)
+int i;
+for (i = 97; i <= 122; i++)
 {
-putchar(x);
+_putchar(i);
 }
-putchar('\n');
-return (0);
+_putchar('\n');
 }
