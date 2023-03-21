@@ -6,16 +6,15 @@
  *followed by a new line
  *Return: Always 0 (success)
  */
-print_alphabet();
 void print_alphabet(void);
 /**function prototype for print_alphabet*/
 int main(void)
 {
-	int print_alphabet;
+	int x;
 
-	for (print_alphabet = 'a'; print_alphabet <= 'z'; print_alphabet++)
+	for (x = 'a'; x <= 'z'; x++)
 	{
-		putchar(print_alphabet);
+		putchar(x);
 	}
 	putchar('\n');
 	return (0);
