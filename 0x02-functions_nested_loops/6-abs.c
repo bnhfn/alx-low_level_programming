@@ -12,7 +12,7 @@
 int _abs(int x)
 {
 int x, y;
-y = abs(x);
+x = abs(y);
 
 _putchar(y);
 
