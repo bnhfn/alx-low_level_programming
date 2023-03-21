@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * islowercase - Function
- * Description: checks if the passing alphabet is lowercase
+ * _islower - Function
+ * Description: check if the passing alphabet is lowercase
  * Return: 1 if true || 0 if false
  * @c: store an integer value
 */
 
-int _islower(int c);
+int _islower(int c)
 {
 if (c >= 97 && c <= 122)
 {
