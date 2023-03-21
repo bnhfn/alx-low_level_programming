@@ -4,17 +4,15 @@
 /**
  * _abs - compute the absolute value of an integer
  * Description: return abs value of a given number
- * @x: the integer value to be computed
+ * @n: the integer value to be computed
  *
  * Return: always 0 (success)
 */
 
-int _abs(int x)
+int _abs(int n)
 {
-int x, y;
-x = abs(y);
-
-_putchar(y);
-
-return (0);
+	if (n >= 0)
+		return (n);
+	else
+		return (-n);
 }
