@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <main.h>
+#include <holberton.h>
 /**
  * main- print_alphabet
  * parameter: print_alphabet
