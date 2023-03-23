@@ -10,9 +10,9 @@
  */
 int _isupper(int c)
 {
-char c = 'A'
 
-if (c <= 'Z'; c++)
+
+if (c == 65 && c <= 91)
 {
 	return (1);
 }
