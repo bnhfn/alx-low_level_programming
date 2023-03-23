@@ -6,7 +6,7 @@
  *
  * @a: take an integer value
  * @b: takes an integer value
- *Return: 0
+ *Return: c = a * b
  **/
 int mul(int a, int b)
 {
@@ -14,5 +14,5 @@ int c = (a * b);
 {
 _putchar (c);
 }
-return (0);
+return (c)
 }
